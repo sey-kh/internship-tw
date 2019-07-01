@@ -6,4 +6,5 @@
 |06/28|2. normalize every samples with MinMaxScaler|1 1.125|||3.962|train_set from 2017-06-01 till 2017-12-31, mse score of 'A'|
 |07/01|2.1 Increase date range of train_set from 2015 till end of 2017 but only 100 symbols|[1.415, 10.238, 4.777, 1.445, 2.358]|||[4.043, 73.307, 25.308, 6.523, 13.365]|I want to compare 5 symbols (A, AAPL, ABAX, ACIU, ADUS) rather than only one symbol|
 |07/01|2.2 Same amount of train_set but add one more feature 'volume'|[1.461, 9.537, 5.173, 1.469, 2.199]|||[4.227, 71.291, 24.006, 5.995, 16.004]|
-|07/01|2.1.2 Apply moving average to input||||||
+|07/01|2.1.2 Apply moving average to input|[0.06, 0.481, 0.3, 0.075, 0.219]
+|||[0.831, 11.775, 3.573, 1.186, 3.347]|These MSE produced by test set which applied moving average so it's not comparable to previous model MSE. Now I'm trying to figure out how to get MSE where it is comparable to previouse MSE|

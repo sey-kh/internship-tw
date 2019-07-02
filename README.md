@@ -6,10 +6,4 @@
 |06/28|2. normalize every samples with MinMaxScaler|1 1.125|||3.962|train_set from 2017-06-01 till 2017-12-31, mse score of 'A'||
 |07/01|2.1 Increase date range of train_set from 2015 till end of 2017 but only 100 symbols and train only one feature 'adj_close'|[1.535, 12.889, 5.943, 1.468, 2.615]|||[4.079, 76.03, 30.642, 6.361, 16.171]|I want to compare 5 symbols (A, AAPL, ABAX, ACIU, ADUS) rather than only one symbol||
 |07/01|2.1.1 Same amount of train_set but add one more feature 'volume'|[1.379, 9.487, 4.49, 1.374, 2.807]|||[4.119, 72.137, 23.592, 5.834, 16.364]|||
-|07/02|2.1.2 Add new feature 'moving average of adj_close' instead of 'volume'|[1.962, 22.62, 14.94, 2.598, 5.116]|||[3.45, 67.873, 29.277, 7.823, 17.222]
-
-
-
-
-
-|||
+|07/02|2.1.2 Add new feature 'moving average of adj_close' instead of 'volume'|[1.962, 22.62, 14.94, 2.598, 5.116]|||[3.45, 67.873, 29.277, 7.823, 17.222]||

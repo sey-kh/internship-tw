@@ -1,4 +1,11 @@
-# Model performance tracking
+# 1. DEFINITION
+## 1.1 Project Overview
+## 1.2
+
+# 2. DEVELOPMENT
+## 2.1 Design Specification
+
+# 3. EXPERIMENTATION, TESTING AND RESULTS
 | Date  | Change                          | MSE 1|3|5|10| Description |Conslusion|
 |-------|---------------------------------|----------------|-------------|----|----|----|----|
 |07/01|`Base line` train only one feature `adj_close`|(1.19, 0.86, 1.34, 2.68, 5.93)|||(4.1, 3.34, 7.3, 17.53, 72.85)|I want to compare 5 symbols `(A, ACER, MSFT, ABC, AAPL)`||

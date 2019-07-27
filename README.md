@@ -1,3 +1,11 @@
+# 1. DEFINITION
+## 1.1 Project Overview
+## 1.2 Problem Statement
+
+# 2. DEVELOPMENT
+## 2.1 Design Specification
+
+# 3. EXPERIMENTATION, TESTING AND RESULTS
 ## 3.1 Model performance tracking
 | Date  | Change                          | MSE Interval 1|MSE Interval 10| Description |Conslusion|
 |-------|---------------------------------|----------------|-------------|----|----|

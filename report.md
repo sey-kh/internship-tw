@@ -4,7 +4,7 @@
 
 ### 1.1 Introduction ###
 
-In this project, you will see how you can use the recurrent neural network algorithm for forecasting, prediction and analysis of stock market data. As a stock buyer you can reasonably decide when to buy stocks and when to sell them to make a profit. So good machine learning models that can look at the history of a sequence of data and correctly predict what the future elements of the sequence are going to be can help you. In this project the model was trained on multiple companies data from <https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018> and predicting future stock pricing.
+In this project, you will see how you can use the recurrent neural network algorithm for forecasting, prediction, and analysis of stock market data. As a stock buyer, you can reasonably decide when to buy stocks and when to sell them to make a profit. So good machine learning models that can look at the history of a sequence of data and correctly predict what the future elements of the sequence are going to be can help you. In this project, the model was trained on multiple companies data from <https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018> and predicting future stock pricing.
 
 ### 1.2 Problem Statement ###
 
@@ -18,7 +18,7 @@ Stock market analysis is divided into two parts – Fundamental Analysis and Tec
 
 ### 2.1 Data normalization ###
 
-We do normalizing our stock price data into a range of (0,1) by using `MinMaxScaler(feature_range=(0,1))`. We're converting various values into a range (0,1) so that deep learning can visualize pattern of samples better.
+We do normalizing our stock price data into a range of (0,1) by using `MinMaxScaler(feature_range=(0,1))`. We're converting various values into a range (0,1) so that deep learning can visualize the pattern of samples better.
 
 Training set and Test set are being normalized every sample.
 
@@ -68,7 +68,7 @@ There are results of predicting adjusted closing price for 1, 3, 5, 10 days into
 
 ### 3.3 Conslusion #
 
-Through out many testings on various stocks, I noted that it was able to predict well for next one day adjusted closing price of any symbols. As you can see as long as we increase interval days MSE error is getting bigger and model can not predict the market trends well.
+Throughout many testings on various stocks, I noted that it was able to predict well for the next one day adjusted closing price of any symbols. But as you can see as long as we increase interval days MSE error is getting bigger and the model can not predict the market trends well.
 
 ## 4. PROBLEM AND CHALLENGES ##
 

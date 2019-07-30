@@ -52,7 +52,7 @@ Best Params:  {'dropout_rate': 0.3, 'n_neurons': 30}
 
 There are results of predicting adjusted closing price for 1, 3, 5, 10 days into the future
 |                           |                           |
-|:-------------------------:|:-------------------------:|
+|---------------------------|---------------------------|
 |![Screen Shot 2019-07-30 at 10 43 09 AM](https://user-images.githubusercontent.com/49018140/62109924-7f011180-b2d7-11e9-8be7-6fb8ea5170da.png)|![Screen Shot 2019-07-30 at 10 43 35 AM](https://user-images.githubusercontent.com/49018140/62109897-6ee93200-b2d7-11e9-9196-a5792f3234dc.png)|
 |![Screen Shot 2019-07-30 at 10 43 48 AM](https://user-images.githubusercontent.com/49018140/62109866-609b1600-b2d7-11e9-90c3-1fb4dc4ede0a.png)|![Screen Shot 2019-07-30 at 10 44 00 AM](https://user-images.githubusercontent.com/49018140/62099069-17d36500-b2b7-11e9-8d3d-0fd34a3ba4f5.png)|
 

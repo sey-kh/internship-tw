@@ -4,7 +4,7 @@
 
 ### 1.1 Introduction ###
 
-In this project, you will see how you can use the recurrent neural network algorithm for forecasting, prediction and analysis of stock market data. As a stock buyer you can reasonably decide when to buy stocks and when to sell them to make a profit. So good machine learning models that can look at the history of a sequence of data and correctly predict what the future elements of the sequence are going to be can help you. In this project the model was trained with the stock price of multiple companies from <https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018>. It was able to predict well for a next day adjusted closing price.
+In this project, you will see how you can use the recurrent neural network algorithm for forecasting, prediction and analysis of stock market data. As a stock buyer you can reasonably decide when to buy stocks and when to sell them to make a profit. So good machine learning models that can look at the history of a sequence of data and correctly predict what the future elements of the sequence are going to be can help you. In this project the model was trained on multiple companies data from <https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018> and predicting future stock pricing.
 
 ### 1.2 Problem Statement ###
 
@@ -68,11 +68,11 @@ There are results of predicting adjusted closing price for 1, 3, 5, 10 days into
 
 ### 3.3 Conslusion #
 
-Through out many testing on various stocks, I noted that model can predict well for next one day into future pricing. As you can see as long as we increase interval days MSE error is getting bigger.
+Through out many testings on various stocks, I noted that it was able to predict well for next one day adjusted closing price of any symbols. As you can see as long as we increase interval days MSE error is getting bigger and model can not predict the market trends well.
 
 ## 4. PROBLEM AND CHALLENGES ##
 
-Stock market prices are highly unpredictable and volatile. This means that there are no consistent patterns in the data that allow you to model stock prices over time near-perfectly.
+Stock market prices are highly unpredictable and volatile. This means that there are no consistent patterns in the data that allow us to model stock prices over time near-perfectly.
 
 ## 5. DELIVERABLES ##
 

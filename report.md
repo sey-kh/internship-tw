@@ -32,6 +32,8 @@ To assign the best network training parameters, the network model is put into th
 
 Hyper parameters optimization using Grid search to optimize the network model architecture parameters.
 
+Below are parameters choices:
+
 ```py
 n_neurons = [20, 30,32,60,64,80]
 dropout_rate = [0.1, 0.2,0.3]
@@ -84,3 +86,10 @@ The followings are the deliverables:
 * Grid search optimization algorithm
 
 _Deliverables are included in the github repository under /deliverables/ folder._
+
+## 6. FUTURE IMPROVEMENTS ##
+
+To achieve a rapid improvement of the models, the following methods should be considered using:
+
+* Increase more dataset with proper data cleansing
+* Consider making train/test set to present in different ways which deep learning can visualize trend better

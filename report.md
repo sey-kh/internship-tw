@@ -50,6 +50,7 @@ Best Params:  {'dropout_rate': 0.3, 'n_neurons': 30}
 
 ### 3.1 Prediction result of AAPL stock #
 
+There are results of predicting adjusted closing price for 1, 3, 5, 10 days into the future
 |                           |                           |
 |:-------------------------:|:-------------------------:|
 |![Screen Shot 2019-07-30 at 10 43 09 AM](https://user-images.githubusercontent.com/49018140/62109924-7f011180-b2d7-11e9-8be7-6fb8ea5170da.png)|![Screen Shot 2019-07-30 at 10 43 35 AM](https://user-images.githubusercontent.com/49018140/62109897-6ee93200-b2d7-11e9-9196-a5792f3234dc.png)|
@@ -62,7 +63,11 @@ Best Params:  {'dropout_rate': 0.3, 'n_neurons': 30}
 |07/01|`Base line` train only one feature `adj_close`|(1.19, 0.86, 1.34, 2.68, 5.93)|(4.1, 3.34, 7.3, 17.53, 72.85)|I want to compare 5 symbols `(A, ACER, MSFT, ABC, AAPL)`||
 |07/01|1 add one more feature `volume`|(1.22, 0.87, 1.27, 2.71, 6.58)|(4.0, 3.26, 7.34, 17.82, 57.78)|||
 |07/02|1.1 Add `moving average of adj_close` instead of `volume`|(1.85, 4.08, 4.4, 7.33, 37.46)|(3.46, 5.13, 9.71, 19.77, 86.66)|||
-|07/03|1.1.1 Add one more feature `volume`|(1.36, 1.74, 3.11, 3.32, 23.66)|(4.14, 5.65, 6.86, 19.71, 70.42)||1 is similar to Base line but better than 1.1 and 1.1.1|
+|07/03|1.1.1 Add one more feature `volume`|(1.36, 1.74, 3.11, pri3.32, 23.66)|(4.14, 5.65, 6.86, 19.71, 70.42)||1 is similar to Base line but better than 1.1 and 1.1.1|
+
+### 3.3 Conslusion #
+
+Through out many testing on various stocks, I noted that model can predict well for next one day into future pricing. As you can see as long as we increase interval days MSE error is getting bigger.
 
 ## 4. PROBLEM AND CHALLENGES ##
 

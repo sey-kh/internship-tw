@@ -51,6 +51,7 @@ Best Params:  {'dropout_rate': 0.3, 'n_neurons': 30}
 ### 3.1 Prediction result of AAPL stock #
 
 There are results of predicting adjusted closing price for 1, 3, 5, 10 days into the future
+
 |                           |                           |
 |---------------------------|---------------------------|
 |![Screen Shot 2019-07-30 at 10 43 09 AM](https://user-images.githubusercontent.com/49018140/62109924-7f011180-b2d7-11e9-8be7-6fb8ea5170da.png)|![Screen Shot 2019-07-30 at 10 43 35 AM](https://user-images.githubusercontent.com/49018140/62109897-6ee93200-b2d7-11e9-9196-a5792f3234dc.png)|
